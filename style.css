@@ -1,0 +1,120 @@
+:root {
+     --color-pink-400: hsl(340, 100%, 98.5%);
+  --color-soft-pink-500: hsl(340, 80%, 85%);
+  --color-soft-pink-600: hsl(340, 70%, 75%);
+  --color-soft-pink-700: hsl(340, 60%, 65%);
+  --color-soft-pink-800: hsl(340, 100%, 95%);
+
+
+  --color-neutral-black: hsl(212, 21%, 14%);
+  --color-neutral-grey: hsl(228, 12%, 48%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--color-neutral-black);
+  background-color: var(--color-pink-400);
+  padding: var(--spacing-md);
+}
+
+.mentorship {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  padding: var(--spacing-lg) var(--spacing-sm);
+  background-color: var(--color-soft-pink-500);
+  border-radius: 1rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.hero h1 {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  color: var(--color-neutral-black);
+  margin-bottom: var(--spacing-sm);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-soft-pink-700);
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--color-soft-pink-600);
+}
+
+.details,
+.testimonials,
+.booking {
+  margin-top: var(--spacing-lg);
+}
+
+.details h2,
+.testimonials h2,
+.booking h2 {
+  font-size: 1.8rem;
+  color: var(--color-soft-pink-700);
+  margin-bottom: var(--spacing-sm);
+}
+
+.details ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.details li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  color: var(--color-neutral-grey);
+  margin-bottom: var(--spacing-sm);
+  padding-left: var(--spacing-sm);
+  border-left: 4px solid var(--color-soft-pink-700);
+}
+
+.footer {
+  text-align: center;
+  padding: var(--spacing-md);
+  font-size: 0.875rem;
+  color: var(--color-neutral-grey);
+}
+.mentorship {
+  background-color: var(--color-soft-pink-800);
+  border-radius: 1rem;
+  padding: var(--spacing-lg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  max-width: 960px;
+  margin: var(--spacing-lg) auto;
+}
